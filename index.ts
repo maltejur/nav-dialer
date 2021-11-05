@@ -58,6 +58,10 @@ async function main() {
       localStorage.setItem("number", number.innerText);
     }
   });
+
+  // @ts-ignore
+  if (window.chrome)
+    document.getElementById("manualforward").style.display = "unset";
 }
 
 main();

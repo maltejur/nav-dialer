@@ -9,7 +9,11 @@
   </head>
   <body>
     <div id="dialer"></div>
-    <button onclick="window.history.forward()">
+    <button
+      onclick="window.history.forward()"
+      id="manualforward"
+      style="display: none"
+    >
       window.history.forward() in case chrome refuses to enable the forward
       button
     </button>
