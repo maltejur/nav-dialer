@@ -1,0 +1,32 @@
+#dialer {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(5, 1fr);
+  width: 200px;
+  height: 300px;
+  margin: 50px;
+  align-items: center;
+  justify-items: center;
+}
+
+#dialer #number {
+  grid-column-start: 1;
+  grid-column-end: 4;
+}
+
+#dialer div {
+  font-size: 20px;
+}
+
+#dialer span {
+  font-size: 30px;
+}
+
+#dialer span.active {
+  font-weight: bold;
+}
+
+#calling {
+  font-size: 20px;
+  margin: 50px;
+}
